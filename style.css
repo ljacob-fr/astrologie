@@ -1,0 +1,132 @@
+body{
+  background-color: #313453!important;
+}
+
+#planete_mercure{
+  animation-duration: 5s;
+  animation-name: mercure;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  transform-origin: center;
+}
+@keyframes mercure {
+0%{
+  transform: rotate(0);
+}
+100%{
+  transform: rotate(360deg);
+}
+}
+#planete_venus{
+  animation-duration: 10s;
+  animation-name: venus;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  transform-origin: center;
+}
+@keyframes venus {
+  0%{
+  transform: rotate(0);
+  }
+  100%{
+  transform: rotate(360deg);
+  }
+}
+#planete_terre{
+animation-duration: 20s;
+animation-name: terre;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+transform-origin: center;
+}
+@keyframes terre {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+#planete_mars{
+  animation-duration: 30s;
+  animation-name: mars;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  transform-origin: center;
+}
+@keyframes mars {
+0%{
+  transform: rotate(0);
+}
+100%{
+  transform: rotate(360deg);
+}
+}
+#planete_jupiter{
+animation-duration: 40s;
+animation-name: jupiter;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+transform-origin: center;
+}
+@keyframes jupiter {
+0%{
+transform: rotate(0);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+#planete_saturne{
+animation-duration: 60s;
+animation-name: saturne;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+transform-origin: center;
+}
+@keyframes saturne {
+0%{
+transform: rotate(0);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+#planete_uranus{
+animation-duration: 80s;
+animation-name: uranus;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+transform-origin: center;
+}
+@keyframes uranus {
+0%{
+transform: rotate(0);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+#planete_neptune{
+animation-duration: 100s;
+animation-name: neptune;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+transform-origin: center;
+}
+@keyframes neptune {
+0%{
+transform: rotate(0);
+}
+100%{
+transform: rotate(360deg);
+}
+}
